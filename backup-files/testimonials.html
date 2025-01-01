@@ -94,22 +94,60 @@
                             </span>
                         </div>
                       
-                       <nav id="responsive-menu">
+                        <nav id="responsive-menu">
                         	<ul class="menu vertical medium-horizontal float-right" data-responsive-menu="accordion medium-dropdown">
-                                <li><a href="index.html">Home Page</a></li>
+                                <li class="single-sub parent-nav"><a href="index.html">Home Page</a>
+                                    <ul class="child-nav menu vertical">
+                                        <li><a href="index.html">Home Version 1</a></li>
+                                        <li><a href="index2.html">Home Version 2</a></li>
+                                        <li><a href="header-style2.html">Header Style 2</a></li>
+                                        <li><a href="boxed.html">Boxed Layout</a></li>
+                                    </ul>
+                                </li>
                                 <li class="single-sub parent-nav"><a href="about-us.html"> Pages </a>
                                     <ul class="child-nav menu vertical">
                                         <li><a href="about-us.html">About Us</a></li>
                                         <li><a href="faq.html">Faq's</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
                                         <li><a href="testimonials.html">Testimonials</a></li>
+                                        <li><a href="price-list.html">Pricing List</a></li>
                                         <li><a href="admission.html">Admission</a></li>
+                                        <li><a href="404.html">404 Page</a></li>                                         
                                     </ul>
                                 </li>
-                                <li><a href="courses.html">Courses</a></li>
-                                <li><a href="our-staff.html"> Our Staff</a></li>
-                                <li><a href="events.html">Events</a></li>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="blog1.html">Blog</a></li>
+                                <li class="single-sub parent-nav"><a href="courses.html">Courses</a>
+                                    <ul class="child-nav menu vertical">
+                                    	<li><a href="courses.html">Courses</a></li>
+                                        <li><a href="single-course.html">Single Course</a></li>                                        
+                                    </ul>
+                                </li>
+                                <li class="single-sub parent-nav"><a href="our-staff.html"> Staff</a>
+                                    <ul class="child-nav menu vertical">
+                                    	<li><a href="our-staff.html">Our Staff</a></li>
+                                        <li><a href="single-teacher.html">Single Teacher</a></li>                                        
+                                    </ul>
+                                </li>
+                                <li class="single-sub parent-nav">
+                                	<a href="events.html">Events</a>
+                                    <ul class="child-nav menu vertical">
+                                        <li><a href="events.html">Events</a></li>
+                                        <li><a href="single-event.html">Single Event</a></li>
+                                    </ul>
+                                </li>
+                                <li class="single-sub parent-nav"><a href="shop.html">Shop</a>
+                               		<ul class="child-nav menu vertical"> 
+                               		    <li><a href="shop.html">Shop</a></li>
+                                        <li><a href="single-product.html">Single Product</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                     </ul>
+                                </li>
+                                <li class="single-sub parent-nav"><a href="blog1.html">Blog</a>
+                                    <ul class="child-nav menu vertical">
+                                        <li><a href="blog1.html">Blog</a></li>
+                                        <li><a href="single-post.html">Single Post</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
@@ -132,7 +170,7 @@
             <div class="row">
         
                 <div class="small-12 columns">
-                    <h1>Our Blog</h1>
+                    <h1>Testimonials</h1>
                 </div><!-- Top Row /-->
         
                 <div class="small-12 columns">
@@ -149,133 +187,110 @@
         <!-- Title Section Ends /-->
         
         <!-- Content section -->
-        <div class="content-section module blog-page">
+        <div class="content-section space-section module testimonial-page">
         	
             <div class="row">
             	
-                <div class="medium-9 small-12 columns posts-wrap">
-
-                    <div class="blog-post">
-                        <div class="featured-image">
-                            <a href="single-post.html">
-                                <img alt="" src="images/help/blog1.jpg" class="thumbnail" />
-                            </a>
-                        	<div class="post-meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 22 April, 2016 | <i class="fa fa-user" aria-hidden="true"></i> <a href="single-post.html">Administrator</a> | <i class="fa fa-list" aria-hidden="true"></i> <a href="#">Category</a> | <i class="fa fa-comments-o" aria-hidden="true"></i> <a href="single-post.html">2 Comments</a></div>
-                        </div>
-                        
-                        <h3><a href="single-post.html">Some Good title of our new post.</a></h3>
-                        
-                        <div class="post-excerpt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at velit in neque efficitur vehicula. Pellentesque id mauris vestibulum, ultrices eros ac, hendrerit ligula. Ut magna felis, tincidunt eget finibus a, finibus at purus. Nulla viverra interdum est, quis interdum nisi ornare eu. Cras fringilla, libero in pulvinar gravida, velit dolor tincidunt justo, at sodales dui ligula vitae arcu. <a href="single-post.html">Read more &raquo;</a></p>
-                        </div><!-- post content ends /-->
-                    </div><!-- post Ends here /-->
+                <div class="medium-9 small-12 columns test-wrap">
+                	
+                    <div class="medium-12 small-12 columns">
+                        <div class="testimonial">
+                            <div class="testimonial-thumb">
+                                <img src="images/help/first_testimonial.jpg" alt="John Doe" />
+                            </div><!-- Testimonial Thumb /-->
+                            <div class="testimonial-detail">
+                                <h4>Very happy to find this institute!</h4>
+                                <p>After graduation we were very worried about our children what he will do as he does not have any work experience but when he joined this abc institute this he became so professional!</p>
+                                <cite>Maria Doe</cite>
+                            </div><!-- Testimonial Detail /-->
+                            <div class="clearfix"></div>
+                         </div> <!-- Testimonial /-->
+                     </div><!-- Column Ends /-->
+                     
+                     <div class="medium-12 small-12 columns">
+                         <div class="testimonial">
+                            <div class="testimonial-thumb">
+                                <img src="images/help/first_testimonial2.jpg" alt="John Doe" />
+                            </div><!-- Testimonial Thumb /-->
+                            <div class="testimonial-detail">
+                                <h4>Very happy to find this institute!</h4>
+                                <p>After graduation we were very worried about our children what he will do as he does not have any work experience but when he joined this abc institute this he became so professional!</p>
+                                <cite>Maria Doe</cite>
+                            </div><!-- Testimonial Detail /-->
+                            <div class="clearfix"></div>
+                         </div> <!-- Testimonial /-->
+                    </div><!-- Column Ends /-->
                     
-                    <div class="blog-post">
-                        <div class="featured-image">
-                            <a href="single-post.html">
-                                <img alt="" src="images/help/blog2.jpg" class="thumbnail" />
-                            </a>
-                        	<div class="post-meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 22 April, 2016 | <i class="fa fa-user" aria-hidden="true"></i> <a href="single-post.html">Administrator</a> | <i class="fa fa-list" aria-hidden="true"></i> <a href="#">Category</a> | <i class="fa fa-comments-o" aria-hidden="true"></i> <a href="single-post.html">2 Comments</a></div>
-                        </div>
-                        
-                        <h3><a href="single-post.html">Some Good title of our new post.</a></h3>
-                        
-                        <div class="post-excerpt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at velit in neque efficitur vehicula. Pellentesque id mauris vestibulum, ultrices eros ac, hendrerit ligula. Ut magna felis, tincidunt eget finibus a, finibus at purus. Nulla viverra interdum est, quis interdum nisi ornare eu. Cras fringilla, libero in pulvinar gravida, velit dolor tincidunt justo, at sodales dui ligula vitae arcu. <a href="single-post.html">Read more &raquo;</a></p>
-                        </div><!-- post content ends /-->
-                    </div><!-- post Ends here /-->
+                    <div class="medium-12 small-12 columns">
+                        <div class="testimonial">
+                            <div class="testimonial-thumb">
+                                <img src="images/help/first_testimonial.jpg" alt="John Doe" />
+                            </div><!-- Testimonial Thumb /-->
+                            <div class="testimonial-detail">
+                                <h4>Very happy to find this institute!</h4>
+                                <p>After graduation we were very worried about our children what he will do as he does not have any work experience but when he joined this abc institute this he became so professional!</p>
+                                <cite>Maria Doe</cite>
+                            </div><!-- Testimonial Detail /-->
+                            <div class="clearfix"></div>
+                         </div> <!-- Testimonial /-->
+                     </div><!-- Column Ends /-->
+                     
+                     <div class="medium-12 small-12 columns">
+                         <div class="testimonial">
+                            <div class="testimonial-thumb">
+                                <img src="images/help/first_testimonial2.jpg" alt="John Doe" />
+                            </div><!-- Testimonial Thumb /-->
+                            <div class="testimonial-detail">
+                                <h4>Very happy to find this institute!</h4>
+                                <p>After graduation we were very worried about our children what he will do as he does not have any work experience but when he joined this abc institute this he became so professional!</p>
+                                <cite>Maria Doe</cite>
+                            </div><!-- Testimonial Detail /-->
+                            <div class="clearfix"></div>
+                         </div> <!-- Testimonial /-->
+                    </div><!-- Column Ends /-->
                     
-                    <div class="blog-post last-post">
-                        <div class="featured-image">
-                            <a href="single-post.html">
-                                <img alt="" src="images/help/blog3.jpg" class="thumbnail" />
-                            </a>
-                        	<div class="post-meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 22 April, 2016 | <i class="fa fa-user" aria-hidden="true"></i> <a href="single-post.html">Administrator</a> | <i class="fa fa-list" aria-hidden="true"></i> <a href="#">Category</a> | <i class="fa fa-comments-o" aria-hidden="true"></i> <a href="single-post.html">2 Comments</a></div>
-                        </div>
-                        
-                        <h3><a href="single-post.html">Some Good title of our new post.</a></h3>
-                        
-                        <div class="post-excerpt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at velit in neque efficitur vehicula. Pellentesque id mauris vestibulum, ultrices eros ac, hendrerit ligula. Ut magna felis, tincidunt eget finibus a, finibus at purus. Nulla viverra interdum est, quis interdum nisi ornare eu. Cras fringilla, libero in pulvinar gravida, velit dolor tincidunt justo, at sodales dui ligula vitae arcu. <a href="single-post.html">Read more &raquo;</a></p>
-                        </div><!-- post content ends /-->
-                    </div><!-- post Ends here /-->
-                    
-                    <!-- pagination starts -->
-                    <div class="pagination-container">
-                        <ul class="pagination" role="menubar" aria-label="Pagination">
-                            <li class="arrow unavailable" aria-disabled="true"><a href="">&laquo; Previous</a></li>
-                            <li class="current"><a href="">1</a></li>
-                            <li><a href="">2</a></li>
-                            <li><a href="">3</a></li>
-                            <li><a href="">4</a></li>
-                            <li class="unavailable" aria-disabled="true"><a href="">&hellip;</a></li>
-                            <li><a href="">12</a></li>
-                            <li><a href="">13</a></li>
-                            <li class="arrow"><a href="">Next &raquo;</a></li>
-                        </ul>
-                    </div><!-- Pagination Ends /-->
-                    
-                </div><!-- Posts wrap /-->
+                </div><!-- testimonial wrap /-->
                 
                 <div class="medium-3 small-12 columns sidebar">
                     <div class="widget">
-                        <h2>Blog Categories</h2>
+                        <h2>Submit Testimonial</h2>
                         
-                        <ul class="menu vertical">
-                            <li><a href="#">Caring Teeth</a></li>
-                            <li><a href="#">Getting Smile</a></li>
-                            <li><a href="#">Doing Good to white</a></li>
-                            <li><a href="#">Dream Frame</a></li>
-                        </ul>
-                    </div><!-- widget ends /-->
-                    
-                    <div class="widget">
-                        <h2>Dental Services</h2>
+                        <div class="widget-content">
+                            <form>
+                                <input type="text" placeholder="Your name..." />
+                                <input type="text" placeholder="Your Email ...." />
+                                <select>
+                                    <option>Select rating</option>
+                                    <option>1 Start</option>
+                                    <option>2 Start</option>
+                                    <option>3 Start</option>
+                                    <option selected>4 Start</option>
+                                    <option>5 Start</option>
+                                </select>
+                                <select>
+                                    <option>Select Service</option>
+                                    <option>Service 1</option>
+                                    <option>Service 2</option>
+                                    <option>Service 3</option>
+                                </select>
+                                <select>
+                                    <option>Select Doctor</option>
+                                    <option>Doctor 1</option>
+                                    <option>Doctor 2</option>
+                                    <option>Doctor 3</option>
+                                </select>
+                                <input type="text" placeholder="Reason of satisfaction..." />
+                                <label>Select Your Image
+                                    <input type="file" />
+                               </label>
+                               <textarea placeholder="Your review..." rows="2"></textarea>
+                               <input type="submit" class="button primary" />     
+                            </form>
+                        </div>
                         
-                        <ul class="menu vertical">
-                            <li><a href="#">Cosmetic Dentistry</a></li>
-                            <li><a href="#">Preventive Dentistry</a></li>
-                            <li><a href="#">Mini Implants</a></li>
-                            <li><a href="#">Emergency Services</a></li>
-                        </ul>
-                    </div><!-- widget ends /-->
+                    </div><!-- widget Ends /-->
                     
-                    <div class="widget">
-                        <h2>Popular Tags</h2>
-                        
-                        <ul class="tags">
-                            <li><a href="#">Something</a></li>
-                            <li><a href="#">New Tag</a></li>
-                            <li><a href="#">Great Tag</a></li>
-                            <li><a href="#">Blue</a></li>
-                            <li><a href="#">Green</a></li>
-                            <li><a href="#">White</a></li>
-                            <li><a href="#">Red</a></li>
-                        </ul>
-                    <div class="clearfix"></div>
-                    </div><!-- widget ends /-->
-                    
-                    <div class="widget">
-                        <h2>Popular Posts</h2>
-                        
-                         <div class="popular-post">
-                            <a href="#"><strong>My new post title come out</strong></a>
-                            <p><img alt="" src="images/help/blogthumb.jpg" class="float-left" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at velit in neque efficitur vehicula. <a href="#">Read more...</a></p>
-                         </div>
-                         
-                         <div class="popular-post">
-                            <a href="#"><strong>My new post title come out</strong></a>
-                            <p><img alt="" src="images/help/blogthumb.jpg" class="float-left" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at velit in neque efficitur vehicula. <a href="#">Read more...</a></p>
-                         </div>
-                         
-                         <div class="popular-post">
-                            <a href="#"><strong>My new post title come out</strong></a>
-                            <p><img alt="" src="images/help/blogthumb.jpg" class="float-left" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at velit in neque efficitur vehicula. <a href="#">Read more...</a></p>
-                         </div>
-                    
-                    </div><!-- widget ends /-->
-                    
-                </div><!-- right bar ends here /-->
+               </div><!-- right bar ends here /-->
                 
             </div><!-- Row Ends /-->
             
