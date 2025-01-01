@@ -675,7 +675,7 @@ Welcome Message CSS Ends
 	bottom:0px;
 	background-color:#0a68b1;
 	color:#FFF;
-	left:65px;
+	left:0px;
 	padding:5px 15px;
 	z-index:3;
 	border-radius:0px 10px 10px 0px;
@@ -1536,8 +1536,11 @@ body.box {
 .staff-links{
     width: 100%;
     position: absolute;
- 	bottom:10px;
-	left:0px;
+ 	bottom:15px;
+	left:10px;
+}
+.staff-detail{
+	padding: 15px;
 }
 .staff-links .menu>li>a i {
     line-height: 35px;
