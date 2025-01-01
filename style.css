@@ -379,6 +379,9 @@ Top bar CSS Ends
  	display:block;
 	width:100%;
  }
+#responsive-menu ul li:first-child {
+	padding-right: 20px;
+}
 .top-bar, .top-bar ul {
 	background-color:transparent; 
 }
